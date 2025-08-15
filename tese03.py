@@ -1,0 +1,19 @@
+#คำสั่งแสดงผลข้อมูลใดๆ ทางหน้าจอ ใช้ฟังก์ชัน print()
+# string
+print('Hello')
+print("Hi")
+print('''Hey''')
+print("""Hum""")
+
+#number
+print(12345)       #integer/int
+print(454.458798)  #float
+
+#bootean ตรรกะ True (จริง) และ False(เท็จ)
+print(True)
+print(False)
+
+# Expression นิพจน์ คือ อะไรก็ตามที่มี process การทำงาน เช่น การคำนวณ, ตัวแปร,...
+print( 10 + 20 + 5 )
+printZ1 (10 + 2 / 2 )
+
