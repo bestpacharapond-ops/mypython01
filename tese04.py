@@ -2,18 +2,18 @@
 # วิธี 1 ใช้ , (โดยการแสดงผลตรงจุดที่ , จะเป็นการเว้น 1 space)
 print('Hello',555,'Wow',999,True,'Hi',10 +20 -5,152.875)
 
-วิธี 2 ใช้ + (ข้อมูลไหนที่ไม่ใช่ string ต้องทำให้เป็น string ใช้ฟังก์ชัน str())
-#`ไมีมีเว้น 1 space เหมือน ,
-print('Hello'+str(555)+'Wow+'str(999)+str(True)+'Hi'+str(10 + 20 -5)str(152.875)
-print('Hello '+str(555)+' Wow '+str(999)+' 'str(True)+' Hi '+str(10 20 -5)+' '+str(152.875))
+#วิธี 2 ใช้ + (ข้อมูลไหนที่ไม่ใช่ string ต้องทำให้เป็น string ใช้ฟังก์ชัน str())
+
+print('Hello'+str(555)+'Wow'+str(999)+str(True)+'Hi'+str(10 + 20 - 5)+str(152.875))
+print('Hello' +str(555)+' Wow '+str(999) +' '+str(True)+' Hi '+str(10 + 20 -5)+' '+str(152.875))
 
 #วิธีที่ 3 ใช้เมธอด Format() โดยข้อมูลที่แสดงอยู่ในรูปแบบของ String
 # (ข้อมูลที่ไม่ใช่ sting ให้ในใส่ () ของ  Format และตำแหน่งที่แสดงข้อมูลนั้นให้ใส่ {} แทน)
-print(Hello {} Wow {} {} Hi {} {} ',Format(555,999,True,10+20-5,152.875))
+print('Hello {} Wow {} {} Hi {} {}'.Format(555,999,True,10+20-5,152.875))
       
-#index number
-print('{4} {2}',format('a','b','c','d','e'))
+#index number 0 1 2 3 4 
+print(' ',format('a','b','c','d','e'))
 
 #วิธีที่ 4 ใช้ f-string โดยข้อมูลที่แสดงอยู่ในรูปแบบของ string โดยมร f อยู่ข้างหน้า
 # (ข้อมูลที่ไม่ใช่tring ให้เขียนใส่ใน {} ณ ตำแหน่งนั้นๆ เลย)
-print(f'Hello {555} Wow {999} {True} Hi {10+20-5} {152.875} ')
+print(f'Hello (555) Wow {999} {True} Hi {10+20-5} {152.875}')
